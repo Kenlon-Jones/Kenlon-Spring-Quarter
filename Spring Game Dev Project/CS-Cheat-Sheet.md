@@ -70,10 +70,13 @@ A for loop is a control flow statement in coding that allows a specfic block of 
 Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example of a type of bug/error that can occur in code. A bug is a probelm in a code that can be big or small, its called a bug because a mans device was not woring and it turned out to have a literal bug in it. A common bug could be putting the same thing twice but not the same same. For example if you put class:english  you have to put it EXACTLY like that, you can't put class:English.
 
 Isaiah - What is a Class? What is an Object?
+A class is a blueprint or template that defines behaviors for a specific type of entity, an object is a real, unusable instance created from that blueprint.
 
 Tay - What is a Library?
+A library is a collection of reusable code, specifically classes, interfaces, and value types, organized into a single module or package that can be used by different programs.
 
 Braylen - What is a List? What are the rules surrounding a list?
+A list is an oedered, mutable data structue used to store collections of items (elements) under a single variable name, often allowing for heterogeneous data types.
 
 Jarmuari - What are the Arithmetic Operators? What do each do? Write a sample line of code that uses one of these operators
 
