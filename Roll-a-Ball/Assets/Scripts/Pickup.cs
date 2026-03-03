@@ -19,9 +19,8 @@ public class Pickup : MonoBehaviour
         {
             //Destroy this pickup
             Destroy(gameObject);
-        
-
-
+            // Tell the Game Manager to earn points
+            GameManager.Instance.EarnPoints(100);
         }
     }
 
