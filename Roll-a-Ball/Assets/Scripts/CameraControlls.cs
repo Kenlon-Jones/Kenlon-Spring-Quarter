@@ -9,6 +9,6 @@ public class CameraControls : MonoBehaviour
 
   private void LateUpdate() // LateUpdate is the same as Update(), it is only called it
   {
-       transform.position = target.position + posOffset; // Every frame, move the camera to the target's position plus the posOffset
+    if (target != null) transform.position = target.position + posOffset; // Every frame, move the camera to the target's position plus the posOffset
   }
 }
