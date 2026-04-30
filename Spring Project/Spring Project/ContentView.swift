@@ -7,18 +7,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct session1: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            Text("Kenlon Jones")
+            Text("I am a 9th student attending Summit Tamalpias and I am in the Rich9 cohort at the Hidden Genius Project")
+            
+            Image("Kenlon.jpg")
+                .resizable()
+                .frame(width: 200, height:200)
+            
+            Image(systemName: "folder.circle.fill")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    session1()
 }
