@@ -1,21 +1,21 @@
 body { 
     font-family: system-ui, Arial; 
-    background: #f4f4f4; margin:0; 
+    background: #000; margin:0; 
 }
 .app { 
     max-width: 720px; 
     margin: 24px auto; 
-    background: rgb(255, 230, 0); 
+    background: rgb(179, 0, 255); 
     padding: 16px; 
     border-radius: 12px; 
 }
 .chat { 
     height: 320px; 
     overflow:auto; 
-    border: 1px solid #ddd; 
+    border: 1px solid #000; 
     padding: 12px; 
     border-radius: 12px; 
-    background: #fafafa; 
+    background: #000; 
 }
 .msg { 
     padding: 10px 12px; 
@@ -24,11 +24,11 @@ body {
     max-width: 80%; 
 }
 .user { 
-    background: #d8ecff; 
+    background: #0084ff; 
     margin-left: auto; 
 }
 .bot { 
-    background: #eaeaea; 
+    background: #ccc; 
     margin-right: auto; 
 }
 .form { 
@@ -40,7 +40,7 @@ input {
     flex: 1; 
     padding: 10px; 
     border-radius: 10px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #000000; 
 }
 button { 
     padding: 10px 14px; 

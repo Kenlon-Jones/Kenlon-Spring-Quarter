@@ -39,7 +39,7 @@ app.post("/api/chat", async (req, res) => {
           {
             role: "system",
             content:
-              "You are an upbeat, youth-friendly help bot for an education program. Be concise, positive, and safe.",
+              "You are a laid back, help bot for an education program. Be concise, helpful, and safe.",
           },
           { role: "user", content: userMessage },
         ],
