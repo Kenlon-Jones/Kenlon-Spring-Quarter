@@ -39,6 +39,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         // Play Main theme music
+        AudioManager.Instance.PlaySound("Music");
     }
 
     public void PlaySound(string name)

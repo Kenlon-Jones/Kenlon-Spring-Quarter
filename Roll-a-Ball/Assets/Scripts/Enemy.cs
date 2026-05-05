@@ -30,6 +30,8 @@ public class Enemy : MonoBehaviour
         {
             // Destroy the player
             Destroy(collision.gameObject);
+            AudioManager.Instance.StopSound("Music");
+            AudioManager.Instance.PlaySound("Death");
         }
     }
 }

@@ -21,6 +21,7 @@ public class Pickup : MonoBehaviour
             Destroy(gameObject);
             // Tell the Game Manager to earn points
             GameManager.Instance.EarnPoints(100);
+            AudioManager.Instance.PlaySound("Object");
         }
     }
 
