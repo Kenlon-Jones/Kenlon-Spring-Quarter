@@ -17,9 +17,9 @@ struct session1: View {
             Text("Kenlon Jones")
             Text("I am a 9th student attending Summit Tamalpias and I am in the Rich9 cohort at the Hidden Genius Project")
             
-            Image("Kenlon.jpg")
+            Image("Kenlon")
                 .resizable()
-                .frame(width: 200, height:200)
+                .frame(width: 200, height:350)
             
             Image(systemName: "folder.circle.fill")
         }
