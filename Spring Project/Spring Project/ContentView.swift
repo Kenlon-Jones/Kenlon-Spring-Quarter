@@ -10,7 +10,7 @@ import SwiftUI
 struct session1: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "lightbulb")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             
