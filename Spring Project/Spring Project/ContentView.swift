@@ -22,7 +22,6 @@ struct session1: View {
                 .frame(width: 200, height:350)
                 .clipShape(RoundedRectangle(cornerRadius: 30.0))
             
-            Image(systemName: "folder.circle.fill")
             Text("I am a 9th student attending Summit Tamalpias, I am in the Rich9 cohort at the Hidden Genius Project, and I am in the Boost@BerkeleyHaas program. I was born on November 16th, 2010 in Berkeley, CA, and I live in Richmond, CA. My dream is to become a Maxillofacial Surgeon as my career and I plan to acheive that by attending UC Berkeley for Undergrad and UCSF for Med School.")
                 .multilineTextAlignment(.center)
         }
