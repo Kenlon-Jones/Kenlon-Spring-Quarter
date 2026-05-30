@@ -18,8 +18,7 @@ struct Session2: View {
                 
             Image("Kenlon")
                 .resizable()
-                .scaledToFit()
-                .clipShape(RoundedRectangle(cornerRadius: 50))
+                .padding(40)
                 .aspectRatio(contentMode: .fit)
         }
     }
